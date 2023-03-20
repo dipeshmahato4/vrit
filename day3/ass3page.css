@@ -1,0 +1,62 @@
+        *{
+            background-color: yellow;
+        }
+            .front{
+                font-weight: bold;
+                text-align: center;
+            }
+            .photo{
+                text-align: center;
+                margin-bottom: 0px;
+            }
+            .paragraph{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20;
+
+            }
+            .link{
+                color: black;
+                
+            }
+            .link:hover{
+                color: blue;
+                cursor: pointer;
+                text-decoration:underline blue ;
+            }
+            .sum{
+                text-align: center;
+                margin-top: 123px;
+                font-size: 28;
+                font-weight: bold;
+                margin-bottom: 40;
+
+            }
+          .Eiichiro{
+                
+                margin-top: 0px;
+                
+                font-weight: bold;
+            }
+            .Eiichiro:hover{
+                cursor: pointer;
+                text-decoration: underline black;
+                padding: 16px;
+            }
+            .according{
+              color: black;
+                text-decoration:black;
+
+            }
+            .according:hover{
+                color: gray;
+                cursor: pointer;
+                text-decoration:underline gray;
+            }
+            .one{
+           letter-spacing: 5px;
+                font-size: 12;
+           line-height: 15px;
+            margin-inline:500px;
+            }
+            
+        

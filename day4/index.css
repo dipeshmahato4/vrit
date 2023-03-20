@@ -1,0 +1,33 @@
+/**{
+    background-image:url(boba.jpg) ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+*/
+
+#color{
+    color: red;
+    text-align: center;
+
+
+}
+img{
+    border-radius: 50px;
+     border-width: 50px;
+    border-color: red;
+    border-style:dotted;
+    height: 50px;
+    
+}
+.one{
+    border:1px solid rgb(12, 213, 12);
+   
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:10px;
+    font-weight: 10px;
+    font-style: italic;
+
+}
+

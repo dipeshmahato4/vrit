@@ -1,0 +1,13 @@
+
+            .student{
+                text-align:right;
+                color: rgb(151, 35, 35);
+                cursor: pointer;
+                
+            }
+            .resize{
+                
+                width:400px;
+                height: 200px;
+            }
+     
