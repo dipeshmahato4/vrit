@@ -1,0 +1,35 @@
+*{
+    background-color: #96D4D4;
+    text-align: center;
+}
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+}
+table,td,th{
+    border: 3px solid black;
+}
+td,th{
+    font-weight: bold;
+    font-family: 'Farsan',cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(245, 11, 11);
+}
+td{
+    margin-left: auto;
+    font-size: 23px;
+    color:red;
+    margin-right: auto;
+    background-color:white;
+    text-align: left;
+    padding-right: 200px;
+    border-radius: 10px;
+    
+
+   
+}
+tr{
+    color: wheat;
+}
