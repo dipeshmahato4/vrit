@@ -30,4 +30,42 @@ img{
     font-style: italic;
 
 }
+#data-1 {
+	color: aquamarine;
+}
+
+.data-2 {
+	color: aquamarine;
+}
+
+.data-2 {
+	color: black;
+}
+
+h3 {
+	color: blue;
+}
+
+h3 {
+	color: orange;
+}
+
+.container {
+	color: brown;
+}
+
+/* Block level element */
+.block-element {
+	border: 1px solid red;
+	display: inline;
+}
+
+/* Inline Element */
+.inline-element {
+	border: 1px solid green;
+	display: inline;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 5px;
+}
 

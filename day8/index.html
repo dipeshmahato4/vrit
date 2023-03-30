@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Day 8</title>
+	</head>
+	<body>
+		<!-- Landing Page and navbar section -->
+		<section class="header">
+			<nav>
+				<a href="#">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SVG_logo.svg/120px-SVG_logo.svg.png"
+						alt="logo-picture"
+					/>
+				</a>
+
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="closeMenu()"></i>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#course-cors">Courses</a></li>
+						<li><a href="#about-page">About</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+				<h3>Hi! This is travel blog page</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+					dignissimos.
+				</p>
+			</div>
+		</section>
+
+		<!-- Course section -->
+		<section id="course-cors" class="course">
+			<h1>Courses for travel</h1>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+				doloremque sapiente provident quod eum, autem sed laborum voluptatibus
+				ratione expedita! Lorem ipsum dolor sit amet consectetur adipisicing
+				elit. Quas quia deserunt neque porro libero architecto, impedit
+				cupiditate sint, ad corporis eveniet, veritatis rem voluptates illum
+				illo? Architecto maxime nemo sint illo enim ex doloremque!
+			</p>
+			<div class="row">
+				<div class="course-col">
+					<h3>Bungee</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>Bungee</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>Skydiving</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>Cycling</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>SkyCycling</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>Mountaineering</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>diving</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+				<div class="course-col">
+					<h3>swimming</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Temporibus, fuga.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about-page" class="about-section">
+			<div class="container">
+				<div class="content-section">
+					<div class="title">About us</div>
+					<div class="content">
+						<h3>Lorem ipsum dolor sit amet.</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+							reprehenderit possimus sit voluptates atque provident.
+						</p>
+						<div class="button">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="social">
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="image-section">
+					<img
+						src="https://images.unsplash.com/photo-1679063329944-7a0db4a253eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+						alt="Image alternative"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<script>
+			const navLinks = document.getElementById("navLinks");
+
+			function closeMenu() {
+				navLinks.style.right = "-200px";
+			}
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+		</script>
+	</body>
+</html>
